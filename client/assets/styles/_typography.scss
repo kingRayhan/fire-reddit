@@ -1,0 +1,15 @@
+a,
+.link {
+  @apply text-indigo-700;
+
+  &:focous {
+    outline: none !important;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button:focus {
+  outline: none;
+}

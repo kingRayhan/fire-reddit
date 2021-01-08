@@ -1,0 +1,20 @@
+.tabs-component {
+  .tabs-component-tabs {
+    @apply border-b-4 border-primaryDark mb-2;
+    display: flex;
+    .tabs-component-tab {
+      @apply bg-primary px-2 font-bold;
+
+      a {
+        @apply text-xl;
+      }
+
+      &.is-active {
+        @apply bg-primaryDark px-2 font-bold;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

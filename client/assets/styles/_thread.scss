@@ -1,0 +1,34 @@
+.thread {
+}
+
+.arrow {
+  margin: 2px 0px 0px 0px;
+  width: 100%;
+  height: 14px;
+  display: block;
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+
+  &--up-vote {
+    background-image: url('~static/images/logos.png');
+    background-position: -84px -1654px;
+    background-repeat: no-repeat;
+
+    &--voted {
+      background-position: -105px -1654px;
+    }
+  }
+  &--down-vote {
+    background-image: url('~static/images/logos.png');
+    background-position: -42px -1654px;
+    background-repeat: no-repeat;
+    &--voted {
+      background-position: -63px -1654px;
+    }
+  }
+}
